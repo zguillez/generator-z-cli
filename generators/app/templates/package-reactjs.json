@@ -1,0 +1,21 @@
+{
+  "name": "z-cli",
+  "version": "0.1.0",
+  "description": "zeta-cli",
+  "main": "/app",
+  "author": {
+    "name": "Guillermo de la Iglesia",
+    "email": "mail@zguillez.io",
+    "url": "https://zguillez.io"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install -g create-react-app",
+    "install": "create-react-app <%= name %>",
+    "postinstall": "mv ./<%= name %> ./app && yarn add eslint && yarn add eslint-config-standard eslint-config-standard-react eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node eslint-plugin-react && cd ./app && yarn install ",
+    "serve": "cd app && npm run start",
+    "build": "cd app && npm run build",
+    "lint": "cd app && eslint app/src --fix"
+  }
+}

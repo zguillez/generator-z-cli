@@ -1,0 +1,21 @@
+{
+  "name": "z-cli",
+  "version": "0.1.0",
+  "description": "zeta-cli",
+  "main": "/app",
+  "author": {
+    "name": "Guillermo de la Iglesia",
+    "email": "mail@zguillez.io",
+    "url": "https://zguillez.io"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install -g polymer-cli",
+    "install": "polymer init",
+    "postinstall": "mv ./<%= name %> ./app && cd ./app",
+    "serve": "cd app && npm run start",
+    "build": "cd app && npm run build",
+    "lint": "cd app && npm run lint"
+  }
+}

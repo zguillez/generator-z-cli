@@ -1,11 +1,11 @@
 {
   "name": "generator-z-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Yeoman generator for create web apps with CLI Javascript frameworks",
   "homepage": "https://github.com/zguillez/generator-z-cli.git",
   "author": {
     "name": "Guillermo de la Iglesia",
-    "email": "zguillez@gmail.com",
+    "email": "mail@zguillez.io",
     "url": "https://zguillez.io"
   },
   "files": [
@@ -13,6 +13,7 @@
   ],
   "main": "generators/index.js",
   "keywords": [
+    "yeoman-generator",
     "javascript",
     "cli",
     "angular",
