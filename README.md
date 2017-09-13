@@ -1,4 +1,6 @@
 # generator-z-cli [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zguillez/generator-z-cli.svg)](https://greenkeeper.io/)
 > Yeoman generator for create web apps with CLI Javascript frameworks
 
 ## Installation
