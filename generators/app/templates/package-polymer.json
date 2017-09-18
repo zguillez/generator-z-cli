@@ -1,7 +1,7 @@
 {
-  "name": "z-cli",
+  "name": "z-polymer-cli",
   "version": "0.1.0",
-  "description": "zeta-cli",
+  "description": "zeta-polymer-cli",
   "main": "/app",
   "author": {
     "name": "Guillermo de la Iglesia",

@@ -1,0 +1,7 @@
+{
+  "ip": "",
+  "username": "",
+  "password": "",
+  "remote": "/var/www/vhosts/dummy.com/httpdocs/",
+  "local": "./app/dist/"
+}

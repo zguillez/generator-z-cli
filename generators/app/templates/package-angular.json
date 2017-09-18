@@ -1,7 +1,7 @@
 {
-  "name": "z-cli",
+  "name": "z-angular-cli",
   "version": "0.1.0",
-  "description": "zeta-cli",
+  "description": "zeta-angular-cli",
   "main": "/app",
   "author": {
     "name": "Guillermo de la Iglesia",

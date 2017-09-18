@@ -1,6 +1,6 @@
 {
   "name": "z-reactjs-cli",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "zeta-reactjs-cli",
   "main": "/app",
   "author": {
@@ -10,9 +10,12 @@
   },
   "license": "MIT",
   "scripts": {
-    "preinstall": "npm install -g create-react-app",
-    "install": "create-react-app <%= name %>",
-    "postinstall": "mv ./<%= name %> ./app && mv ./package.prod.json ./package.json"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "cd app && npm run start",
+    "build": "cd app && npm run build",
+    "lint": "cd app && eslint app/src --fix",
+    "deploy": "bin/deploy.js",
+    "remote": "bin/remote.js"
   },
   "devDependencies": {
     "colors": "^1.1.2",

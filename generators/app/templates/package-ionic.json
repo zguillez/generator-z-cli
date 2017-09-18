@@ -1,7 +1,7 @@
 {
-  "name": "z-cli",
+  "name": "z-ionic-cli",
   "version": "0.1.0",
-  "description": "zeta-cli",
+  "description": "zeta-ionic-cli",
   "main": "/app",
   "author": {
     "name": "Guillermo de la Iglesia",
