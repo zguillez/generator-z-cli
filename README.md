@@ -1,6 +1,5 @@
 # generator-z-cli
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/zguillez/generator-z-cli.svg)](https://greenkeeper.io/)
 [![npm version](https://badge.fury.io/js/generator-z-cli.svg)](https://badge.fury.io/js/generator-z-cli)
 [![Build Status](http://img.shields.io/travis/zguillez/generator-z-cli.svg)](https://travis-ci.org/zguillez/generator-z-cli)
 [![Code Climate](http://img.shields.io/codeclimate/github/zguillez/generator-z-cli.svg)](https://codeclimate.com/github/zguillez/generator-z-cli)
