@@ -11,7 +11,7 @@ describe('generator-z-cli:app', () => {
 
   it('creates files', () => {
     assert.file([
-      '.sshconfig'
+      'package-angular.json'
     ]);
   });
 });
