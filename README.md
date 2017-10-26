@@ -1,11 +1,12 @@
 # generator-z-cli
 
-[![Join the chat at https://gitter.im/zguillez/generator-z-cli](https://badges.gitter.im/zguillez/generator-z-cli.svg)](https://gitter.im/zguillez/generator-z-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![npm version](https://badge.fury.io/js/generator-z-cli.svg)](https://badge.fury.io/js/generator-z-cli)
 [![Build Status](http://img.shields.io/travis/zguillez/generator-z-cli.svg)](https://travis-ci.org/zguillez/generator-z-cli)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d5e196595618918ddb84/maintainability)](https://codeclimate.com/github/zguillez/generator-z-cli/maintainability)
+[![Dependency Status](https://gemnasium.com/zguillez/generator-z-cli.svg)](https://gemnasium.com/zguillez/generator-z-cli)
 [![Installs](https://img.shields.io/npm/dt/generator-z-cli.svg)](https://coveralls.io/r/zguillez/generator-z-cli)
 ![](https://reposs.herokuapp.com/?path=zguillez/generator-z-cli)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d5e196595618918ddb84/maintainability)](https://codeclimate.com/github/zguillez/generator-z-cli/maintainability)[![Dependency Status](https://gemnasium.com/zguillez/generator-z-cli.svg)](https://gemnasium.com/zguillez/generator-z-cli)
+[![Join the chat at https://gitter.im/zguillez/generator-z-cli](https://badges.gitter.im/zguillez/generator-z-cli.svg)](https://gitter.im/zguillez/generator-z-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
 
