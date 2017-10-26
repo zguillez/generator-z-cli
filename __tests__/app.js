@@ -8,10 +8,4 @@ describe('generator-z-cli:app', () => {
     return helpers.run(path.join(__dirname, '../generators/app'))
       .withPrompts({someAnswer: true});
   });
-
-  it('creates files', () => {
-    assert.file([
-      'package-angular.json'
-    ]);
-  });
 });
