@@ -22,5 +22,5 @@ if(argv.i) {
     console.log(`=> Done!`.green);
   });
 } else {
-  console.log(`error: null --script\n`.red);
+  console.log(`error: null -i [script]\n`.red);
 }
