@@ -1,7 +1,20 @@
-# generator-z-cli [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Yeoman generator for create web apps with CLI Javascript frameworks
+# generator-z-cli
 
-## Installation
+[![Greenkeeper badge](https://badges.greenkeeper.io/zguillez/generator-z-cli.svg)](https://greenkeeper.io/)
+[![npm version](https://badge.fury.io/js/generator-z-cli.svg)](https://badge.fury.io/js/generator-z-cli)
+[![Build Status](http://img.shields.io/travis/zguillez/generator-z-cli.svg)](https://travis-ci.org/zguillez/generator-z-cli)
+[![Code Climate](http://img.shields.io/codeclimate/github/zguillez/generator-z-cli.svg)](https://codeclimate.com/github/zguillez/generator-z-cli)
+[![Dependency Status](https://gemnasium.com/zguillez/generator-z-cli.svg)](https://gemnasium.com/zguillez/generator-z-cli)
+[![Installs](https://img.shields.io/npm/dt/generator-z-cli.svg)](https://coveralls.io/r/zguillez/generator-z-cli)
+![](https://reposs.herokuapp.com/?path=zguillez/generator-z-cli)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+[![Join the chat at https://gitter.im/zguillez/generator-z-cli](https://badges.gitter.im/zguillez/generator-z-cli.svg)](https://gitter.im/zguillez/generator-z-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+> [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
+
+## Yeoman generator for create web apps with CLI Javascript frameworks
+
+# Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-z-cli using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
