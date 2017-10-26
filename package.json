@@ -42,7 +42,7 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "prepublish": "",
+    "prepublish": "nsp check",
     "pretest": "eslint . --fix",
     "test": "jest"
   },
