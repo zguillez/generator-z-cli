@@ -6,7 +6,6 @@
 [![Dependency Status](https://gemnasium.com/zguillez/generator-z-cli.svg)](https://gemnasium.com/zguillez/generator-z-cli)
 [![Installs](https://img.shields.io/npm/dt/generator-z-cli.svg)](https://coveralls.io/r/zguillez/generator-z-cli)
 ![](https://reposs.herokuapp.com/?path=zguillez/generator-z-cli)
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 [![Join the chat at https://gitter.im/zguillez/generator-z-cli](https://badges.gitter.im/zguillez/generator-z-cli.svg)](https://gitter.im/zguillez/generator-z-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
