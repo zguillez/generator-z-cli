@@ -12,38 +12,32 @@
 
 ## Yeoman generator for create web apps with CLI Javascript frameworks
 
-# Installation
+![](http://zguillez.github.io/img/z-cli.png)
 
-First, install [Yeoman](http://yeoman.io) and generator-z-cli using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+# Getting Started
+## Install Yeoman
 
-```bash
+```
 npm install -g yo
+```
+
+## Yeoman Generators
+To install generator-z-cli from npm, run:
+
+```
 npm install -g generator-z-cli
 ```
 
-Then generate your new project:
+Finally, initiate the generator:
 
-```bash
+```
 yo z-cli
 ```
 
-## Getting To Know Yeoman
+# Contributing and issues
+Contributors are welcome, please fork and send pull requests! If you have any ideas on how to make this project better then please submit an issue or send me an [email](mailto:mail@zguillez.io).
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+# License
+©2017 [Zguillez.io](https://zguillez.io)
 
-## License
-
-MIT © [Guillermo de la Iglesia](https://zguillez.io)
-
-
-[npm-image]: https://badge.fury.io/js/generator-z-cli.svg
-[npm-url]: https://npmjs.org/package/generator-z-cli
-[travis-image]: https://travis-ci.org/zguillez/generator-z-cli.svg?branch=master
-[travis-url]: https://travis-ci.org/zguillez/generator-z-cli
-[daviddm-image]: https://david-dm.org/zguillez/generator-z-cli.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/zguillez/generator-z-cli
-[coveralls-image]: https://coveralls.io/repos/zguillez/generator-z-cli/badge.svg
-[coveralls-url]: https://coveralls.io/r/zguillez/generator-z-cli
+Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Open Source projects used within this project retain their original licenses.
