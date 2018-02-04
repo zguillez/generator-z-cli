@@ -11,11 +11,16 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npm install -g vue-cli",
-    "install": "vue init webpack <%= name %>",
-    "postinstall": "mv ./<%= name %> ./app && cd ./app && yarn install",
     "serve": "cd app && npm run start",
     "build": "cd app && npm run build",
-    "lint": "cd app && npm run lint"
+    "lint": "cd app && npm run lint",
+    "deploy": "bin/ssh.js",
+    "remote": "bin/remote.js"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "minimist": "^1.2.0",
+    "remote-exec": "^0.0.3",
+    "shelljs": "^0.7.8"
   }
 }

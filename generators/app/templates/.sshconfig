@@ -1,7 +1,18 @@
 {
-  "ip": "",
-  "username": "",
-  "password": "",
-  "remote": "/var/www/vhosts/dummy.com/httpdocs/",
-  "local": "./app/dist/"
+    "domain": "https://{mydomain.com}",
+    "ssh": {
+        "host": "{ip}",
+        "username": "{username}",
+        "password": "{password}",
+        "path": "/var/www/vhosts/{mydomain.com}/httpdocs/",
+        "folder": "{folder}"
+    },
+    "ftp": {
+        "host": "ftp.{mydomain.com}",
+        "port": 21,
+        "username": "{username}",
+        "password": "{password}",
+        "local": "./",
+        "remote": "/"
+    }
 }
