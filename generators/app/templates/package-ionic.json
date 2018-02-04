@@ -12,6 +12,6 @@
   "scripts": {
     "preinstall": "npm install -g ionic@latest",
     "install": "ionic start <%= name %> tabs",
-    "postinstall": "mv ./<%= name %> ./app && cd ./app && yarn install"
+    "postinstall": "mv ./<%= name %> ./app && mv ./package.prod.json ./package.json"
   }
 }

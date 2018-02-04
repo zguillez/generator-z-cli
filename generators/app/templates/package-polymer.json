@@ -10,12 +10,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npm install -g polymer-cli",
     "install": "polymer init",
-    "postinstall": "mv ./<%= name %> ./app && cd ./app",
-    "serve": "cd app && npm run start",
-    "build": "cd app && npm run build",
-    "lint": "cd app && npm run lint"
+    "postinstall": "mv ./<%= name %> ./app && mv ./package.prod.json ./package.json"
   }
 }

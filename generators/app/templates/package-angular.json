@@ -12,6 +12,6 @@
   "scripts": {
     "preinstall": "npm install -g @angular/cli && ng set --global packageManager=yarn",
     "install": "ng new <%= name %>",
-    "postinstall": "mv ./<%= name %> ./app && cd ./app && yarn install"
+    "postinstall": "mv ./<%= name %> ./app && mv ./package.prod.json ./package.json"
   }
 }
