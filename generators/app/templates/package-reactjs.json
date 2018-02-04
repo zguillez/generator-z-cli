@@ -1,7 +1,7 @@
 {
-  "name": "z-reactjs-cli",
-  "version": "0.2.0",
-  "description": "zeta-reactjs-cli",
+  "name": "z-cli-installer",
+  "version": "0.2.1",
+  "description": "z-cli-installer-reactjs",
   "main": "/app",
   "author": {
     "name": "Guillermo de la Iglesia",
@@ -13,19 +13,5 @@
     "preinstall": "npm install -g create-react-app",
     "install": "create-react-app <%= name %>",
     "postinstall": "mv ./<%= name %> ./app && mv ./package.prod.json ./package.json"
-  },
-  "devDependencies": {
-    "colors": "^1.1.2",
-    "eslint": "^4.7.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-config-standard-react": "^5.0.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-react": "^7.3.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "minimist": "^1.2.0",
-    "remote-exec": "^0.0.3",
-    "shelljs": "^0.7.8"
   }
 }

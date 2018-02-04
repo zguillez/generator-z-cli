@@ -35,7 +35,7 @@ module.exports = class extends Generator {
   writing() {
     this.fs.copyTpl(this.templatePath(`package-${this.props.framework.toLowerCase()}.json`), this.destinationPath(`package.json`), {name: this.props.name});
     this.fs.copy(this.templatePath(`package-${this.props.framework.toLowerCase()}.prod.json`), this.destinationPath(`package.prod.json`));
-    if(this.props.framework === 'ReactJS') {
+    if (this.props.framework === 'ReactJS') {
       this.fs.copy(this.templatePath(`.eslintrc-${this.props.framework.toLowerCase()}`), this.destinationPath(`.eslintrc`));
     }
     this.fs.copy(this.templatePath(`.sshconfig`), this.destinationPath(`.sshconfig`));
