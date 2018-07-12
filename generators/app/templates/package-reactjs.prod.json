@@ -14,7 +14,7 @@
     "serve": "cd app && npm run start",
     "build": "cd app && npm run build",
     "lint": "cd app && eslint app/src --fix",
-    "deploy": "bin/ssh.js",
+    "deploy": "bin/version.js --minor && bin/ssh.js",
     "remote": "bin/remote.js"
   },
   "devDependencies": {

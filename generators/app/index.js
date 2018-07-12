@@ -8,12 +8,12 @@ const version = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../') + '
 module.exports = class extends Generator {
   prompting() {
     this.log(yosay('generator-z-cli ' + chalk.green(`v${version}`)));
-    /*const prompts = [{
+    /* Const prompts = [{
      type: 'confirm',
      name: 'someAnswer',
      message: 'Would you like to enable this option?',
      default: true
-     }];*/
+     }]; */
     const prompts = [
       {
         type: 'text',

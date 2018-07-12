@@ -10,6 +10,6 @@ replace({
   regex: '{site}',
   replacement: config.domain,
   paths: ['package.json'],
-  silent: true,
+  silent: true
 });
 console.log(`=> Done!\n`.green);
